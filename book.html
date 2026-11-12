@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Books</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <div class="dash">
+        <nav class="navbar">
+            <h2> Library Management</h2>
+            <img src="./logo.png">
+            <div class="links">
+                <a href="dash.html"> Dashboard</a>
+                <a href="add.html"> Add Books</a>
+                <a href="book.html" class="active"> Books</a>
+                <a href="issue.html"> Issue Book</a>
+                <a href="issued.html">Issued Book</a>
+                <a href="saved.html"> Saved Books</a>
+                <a href="search.html"> Search Books</a>
+                <a href="return.html">Return Book</a>
+                <a href="login.html">Logout</a>
+            </div>
+        </nav>
+        <div class="main">
+            <h1>Books</h1>
+            <div class="book-container">
+                <div class="book-card">
+                    <img src="https://m.media-amazon.com/images/I/81YXfTztoZL._AC_UF1000,1000_QL80_.jpg">
+                    <h3>🎬 The Kite Runner</h3>
+                    <p>Khaled Hosseini</p>
+                    <p>Fiction</p>
+                    <p>Emotional friendship, betrayal, guilt, redemption, and a powerful journey.</p>
+                    <div class="book-buttons">
+                        <button class="save-btn"
+                            data-title="The Kite Runner"
+                            data-author="Khaled Hosseini"
+                            data-category="Fiction"
+                            data-image="https://m.media-amazon.com/images/I/81YXfTztoZL._AC_UF1000,1000_QL80_.jpg">
+                            🔖 Save
+                        </button>
+                        <button class="issue-btn" data-title="The Kite Runner" data-author="Khaled Hosseini" data-category="Fiction" data-image="https://m.media-amazon.com/images/I/81YXfTztoZL._AC_UF1000,1000_QL80_.jpg"> 📕 Issue Book </button>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="https://m.media-amazon.com/images/I/81q77Q39nEL._AC_UF1000,1000_QL80_.jpg">
+                    <h3>🪄 Harry Potter and the Philosopher's Stone</h3>
+                    <p>J.K. Rowling</p>
+                    <p>Fantasy / Adventure</p>
+                    <p>Magic, friendship, school life, mystery, and adventure.</p>
+                    <div class="book-buttons">
+                        <button class="save-btn"
+                            data-title="Harry Potter and the Philosopher's Stone"
+                            data-author="J.K. Rowling"
+                            data-category="Fantasy / Adventure"
+                            data-image="https://m.media-amazon.com/images/I/81q77Q39nEL._AC_UF1000,1000_QL80_.jpg">
+                            🔖 Save
+                        </button>
+                        <button class="issue-btn" data-title="Harry Potter and the Philosopher's Stone" data-author="J.K. Rowling" data-category="Fantasy / Adventure" data-image="https://m.media-amazon.com/images/I/81q77Q39nEL._AC_UF1000,1000_QL80_.jpg"> 📕 Issue Book </button>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="https://m.media-amazon.com/images/I/71QST3bEo8L._AC_UF1000,1000_QL80_.jpg">
+                    <h3>🕵️ The Da Vinci Code</h3>
+                    <p>Dan Brown</p>
+                    <p>Mystery / Thriller</p>
+                    <p>Fast-paced mystery, puzzles, secrets, and unexpected twists.</p>
+                    <div class="book-buttons">
+                        <button class="save-btn"
+                            data-title="The Da Vinci Code"
+                            data-author="Dan Brown"
+                            data-category="Mystery / Thriller"
+                            data-image="https://m.media-amazon.com/images/I/71QST3bEo8L._AC_UF1000,1000_QL80_.jpg">
+                            🔖 Save
+                        </button>
+                        <button class="issue-btn" data-title="The Da Vinci Code" data-author="Dan Brown" data-category="Mystery / Thriller" data-image="https://m.media-amazon.com/images/I/71QST3bEo8L._AC_UF1000,1000_QL80_.jpg"> 📕 Issue Book </button>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="https://m.media-amazon.com/images/I/71pX4vvMSGL.jpg">
+                    <h3>👟 Shoe Dog</h3>
+                    <p>Phil Knight</p>
+                    <p>Memoir / Business</p>
+                    <p>The story of how Nike grew from a small idea into a global company.</p>
+                     <div class="book-buttons">
+                        <button class="save-btn"
+                            data-title="Shoe Dog"
+                            data-author="Phil Knight"
+                            data-category="Memoir / Business"
+                            data-image="https://m.media-amazon.com/images/I/71pX4vvMSGL.jpg">
+                            🔖 Save
+                        </button>
+                        <button class="issue-btn" data-title="Shoe Dog" data-author="Phil Knight" data-category="Memoir / Business" data-image="https://m.media-amazon.com/images/I/71pX4vvMSGL.jpg"> 📕 Issue Book </button>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="https://m.media-amazon.com/images/I/81ZtAPCqyGL._AC_UF1000,1000_QL80_.jpg">
+                    <h3>🌟 The Alchemist</h3>
+                    <p>Paulo Coelho</p>
+                    <p>Inspirational Fiction</p>
+                    <p>A young shepherd follows his dream and discovers what really matters in life.</p>
+                     <div class="book-buttons">
+                        <button class="save-btn"
+                            data-title="The Alchemist"
+                            data-author="Paulo Coelho"
+                            data-category="Inspirational Fiction"
+                            data-image="https://m.media-amazon.com/images/I/81ZtAPCqyGL._AC_UF1000,1000_QL80_.jpg">
+                            🔖 Save
+                        </button>
+                        <button class="issue-btn" data-title="The Alchemist" data-author="Paulo Coelho" data-category="Inspiration" data-image="https://m.media-amazon.com/images/I/81ZtAPCqyGL._AC_UF1000,1000_QL80_.jpg"> 📕 Issue Book </button>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="https://m.media-amazon.com/images/I/71C5ZqBNobL.jpg">
+                    <h3>🔥 The Power of Your Subconscious Mind</h3>
+                    <p>Joseph Murphy</p>
+                    <p>Motivation / Self-development</p>
+                    <p>Focuses on mindset, confidence, positive thinking, and personal growth.</p>
+                    <div class="book-buttons">
+                        <button class="save-btn"
+                            data-title="The Power of Your Subconscious Mind"
+                            data-author="Joseph Murphy"
+                            data-category="Motivation / Self-development"
+                            data-image="https://m.media-amazon.com/images/I/71C5ZqBNobL.jpg">
+                            🔖 Save
+                        </button>
+                        <button class="issue-btn" data-title="The Power of Your Subconscious Mind" data-author="Joseph Murphy" data-category="Motivation / Self-development" data-image="https://m.media-amazon.com/images/I/71C5ZqBNobL.jpg"> 📕 Issue Book </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+let existingBooks = JSON.parse(localStorage.getItem("books"));
+if (!existingBooks) {
+    let bookCards = document.querySelectorAll(".book-card");
+    let books = [];
+    bookCards.forEach(function(card) {
+        let saveButton = card.querySelector(".save-btn");
+        if (saveButton) {
+            books.push({
+                title: saveButton.dataset.title,
+                author: saveButton.dataset.author,
+                category: saveButton.dataset.category,
+                description: card.querySelectorAll("p")[2]?.textContent || "",
+                image: saveButton.dataset.image,
+                status: "Available"
+            });
+        }
+    });
+    localStorage.setItem("books", JSON.stringify(books));
+}
+</script>
+    <script src="all.js"></script>
+</body>
+</html>

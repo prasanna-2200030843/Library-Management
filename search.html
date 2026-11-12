@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Books</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <div class="dash">
+        <nav class="navbar">
+            <h2> Library Management</h2>
+            <img src="./logo.png">
+            <div class="links">
+                <a href="dash.html"> Dashboard</a>
+                <a href="add.html">Add Books</a>
+                <a href="book.html">Books</a>
+                <a href="issue.html"> Issue Book</a>
+                <a href="issued.html"> Issued Books</a>
+                <a href="saved.html"> Saved Books</a>
+                <a href="search.html" class="active"> Search Books</a>
+                <a href="return.html"> Return Book</a>               
+                <a href="login.html"> Logout</a>
+            </div>
+        </nav>
+        <div class="main">
+            <h1>Search Books </h1>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Enter book name...">
+                <button id="searchBtn">Search</button>
+            </div>
+            <div id="searchResult"></div>
+        </div>
+    </div>
+    <script src="all.js"></script>
+</body>
+</html>

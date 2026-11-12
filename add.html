@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Books</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <div class="dash">
+    <nav class="navbar">
+        <h2> Library Management</h2>
+        <img src="./logo.png">
+        <div class="links">
+            <a href="dash.html"> Dashboard</a>
+            <a href="add.html" class="active"> Add Books</a>
+            <a href="book.html"> Books</a>
+            <a href="issue.html"> Issue Book</a>
+            <a href="issued.html">Issued Book</a>
+            <a href="saved.html">Saved Books</a>
+            <a href="search.html">Search Books</a>
+            <a href="return.html">Return Book</a>
+            <a href="login.html">Logout</a>
+        </div>
+    </nav>
+    <div class="main">
+        <h1> Add Books</h1>
+        <div class="add-book-box">
+            <h2>Add a New Book</h2>
+            <label>Book Image</label>
+            <input type="file" id="bookImage" accept="image/*">
+            <label>Book Name</label>
+            <input
+                type="text"
+                id="bookName"
+                placeholder="Enter book name..."
+            >
+            <label>Author</label>
+            <input
+                type="text"
+                id="bookAuthor"
+                placeholder="Enter author name..."
+            >
+            <label>Category</label>
+            <input
+                type="text"
+                id="bookCategory"
+                placeholder="Enter book category..."
+            >
+            <label>Description</label>
+            <textarea
+                id="bookDescription"
+                placeholder="Enter book description..."
+            ></textarea>
+            <button id="addBookBtn">
+                ➕ Add Book
+            </button>
+        </div>
+    </div>
+</div>
+<!-- <script> 
+// document.getElementById("addBookBtn").addEventListener("click", function () {
+//     let imageFile = document.getElementById("bookImage").files[0];
+//     let bookName = document.getElementById("bookName").value.trim();
+//     let bookAuthor = document.getElementById("bookAuthor").value.trim();
+//     let bookCategory = document.getElementById("bookCategory").value.trim();
+//     let bookDescription = document.getElementById("bookDescription").value.trim();
+//     if (!imageFile || !bookName || !bookAuthor || !bookCategory || !bookDescription) {
+//         alert("Please fill all book details.");
+//         return;
+//     }
+//     let reader = new FileReader();
+//     reader.onload = function (event) {
+//         let books = JSON.parse(localStorage.getItem("books")) || [];
+//         let newBook = {
+//             title: bookName,
+//             author: bookAuthor,
+//             category: bookCategory,
+//             description: bookDescription,
+//             image: event.target.result,
+//             status: "Available"
+//         };
+// books.push(newBook);
+
+// localStorage.setItem("books", JSON.stringify(books));
+// let customBooks = JSON.parse(localStorage.getItem("customBooks")) || [];
+// customBooks.push(newBook);
+// localStorage.setItem("customBooks", JSON.stringify(customBooks));
+//         window.location.href = "book.html";
+//     };
+//     reader.readAsDataURL(imageFile);
+// });
+</script> -->
+<script src="all.js"></script>
+</body>
+</html>

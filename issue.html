@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Issue Book</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <div class="dash">
+        <nav class="navbar">
+            
+            <h2> Library Management</h2>
+            <img src="./logo.png">
+            <div class="links">
+                <a href="dash.html"> Dashboard</a>
+                <a href="add.html">Add Books</a>
+                <a href="book.html">Books</a>
+                <a href="issue.html" class="active"> Issue Book</a>
+                <a href="issued.html"> Issued Books</a>
+                <a href="saved.html"> Saved Books</a>
+                <a href="search.html"> Search Books</a>
+                <a href="return.html">Return Book</a>
+                <a href="login.html"> Logout</a>
+            </div>
+        </nav>
+        <div class="main">
+            <h1>Issue Book </h1>
+            <div class="issue-form">
+                <h2>Book Details</h2>
+                <p><strong>Book Name:</strong><span id="issueTitle"></span></p>
+                <p><strong>Author:</strong><span id="issueAuthor"></span></p>
+                <p><strong>Category:</strong><span id="issueCategory"></span></p>
+                <h2>Student Details</h2>
+                <label>Student Name</label>
+                <input type="text" id="studentName" placeholder="Enter student name">
+                <label>Student ID</label>
+                <input type="text" id="studentId" placeholder="Enter student ID">
+                <label>Mobile Number</label>
+                <input type="text" id="mobile" placeholder="Enter mobile number">
+                <label>Issue Date</label>
+                <input type="date" id="issueDate">
+                <label>Due Date</label>
+                <input type="date" id="dueDate">
+                <button id="issueConfirm"> Issue Book</button>
+                <p id="issueMessage"></p>
+               
+            </div>
+        </div>
+    </div>
+    <script src="all.js"></script>
+</body>
+</html>
